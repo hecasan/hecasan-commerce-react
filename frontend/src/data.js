@@ -29,6 +29,7 @@ const data = {
       rating: '3.5',
       numReviews: '127',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
+      countInStock: 25
     },
     {
       _id: '4',
@@ -39,6 +40,7 @@ const data = {
       rating: '2',
       numReviews: '45',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
+      countInStock: 15
     },
     {
       _id: '5',
@@ -49,6 +51,7 @@ const data = {
       rating: '5',
       numReviews: '85',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
+      countInStock: 5
     },
     {
       _id: '6',
@@ -59,6 +62,7 @@ const data = {
       rating: '5',
       numReviews: '105',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
+      countInStock: 0
     },
     {
       _id: '7',
@@ -69,6 +73,7 @@ const data = {
       rating: '2.5',
       numReviews: '23',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
+      countInStock: 23
     },
   ]
 }
