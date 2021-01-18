@@ -23,7 +23,7 @@ function App() {
             <Route path="/produto/:id" component={ProdutoScreen} />
             <Route path="/" component={HomeScreen} exact />
           </main>
-          <footer className="row center">All right reserved</footer>
+          <footer className="row center">Todos os direitos reservados - Hecasan Portas e Janelas de Alumínio</footer>
         </div>
 
       </div>
