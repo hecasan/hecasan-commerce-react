@@ -109,6 +109,15 @@ img.medium {
 }
 /* Rating */
 .rating span {
-  color: #ba0000;
+  color: #dfca0f;
   margin: 0.1rem;
+}
+.rating span:last-child {
+  color: rgb(92, 92, 92);
+  font-size: 12px;
+}
+.rating span.divider {
+  color: rgb(194, 194, 194);
+  font-size: 22px;
+  font-weight: normal;
 }

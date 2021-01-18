@@ -1,5 +1,8 @@
+import React from 'react'
 import './index.css';
 import data from './data';
+import Produto from './components/Produto.js';
+
 
 function App() {
   return (
@@ -17,30 +20,16 @@ function App() {
         <main>
           <div>
             <div className="row center">
-              {
-                data.produtos.map(produto => (
+              <>
+                {
+                  data.produtos.map(produto => (
 
-                  <div key={produto._id} className="card">
-                    <a href={`/produto/${produto._id}`}>
-                      <img className="medium" src={produto.image} alt={produto.name} />
-                    </a>
-                    <div className="card-body">
-                      <a href={`/produto/${produto._id}`}>
-                        <h2>{produto.name}</h2>
-                      </a>
-                      <div className="rating">
-                        <span> <i className="fa fa-star"></i> </span>
-                        <span> <i className="fa fa-star"></i> </span>
-                        <span> <i className="fa fa-star"></i> </span>
-                        <span> <i className="fa fa-star"></i> </span>
-                        <span> <i className="fa fa-star"></i> </span>
-                      </div>
-                      <div className="price">R$ {produto.price},00</div>
-                    </div>
-                  </div>
+                    <Produto key={produto._id} produto={produto} />
 
-                ))
-              }
+
+                  ))
+                }
+              </>
 
 
             </div>

@@ -7,6 +7,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 356,
       rating: '4.5',
+      numReviews: '35',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -16,6 +17,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 396,
       rating: '5',
+      numReviews: '72',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -25,6 +27,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 415,
       rating: '3.5',
+      numReviews: '127',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -34,6 +37,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 450,
       rating: '2',
+      numReviews: '45',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -43,6 +47,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 520,
       rating: '5',
+      numReviews: '85',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -52,6 +57,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 545,
       rating: '5',
+      numReviews: '105',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
     {
@@ -61,6 +67,7 @@ const data = {
       image: '../images/veneziana-6-folhas-de-aluminio-branco-com-grade.jpg',
       price: 605,
       rating: '2.5',
+      numReviews: '23',
       description: 'Veneziana 6 folhas de alumínio branco com grade 1,00 x 1,00',
     },
   ]
